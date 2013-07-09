@@ -1,0 +1,84 @@
+/*
+	Compress Theme
+	Designed and Developed by Bishwajeet Mahato
+	
+*/
+
+/* 
+Sidebar Tabs Styles */
+  #tabvanilla {
+	margin: 10px 0;  
+}
+  .tabnav {
+	position: relative;
+	top: -8px;
+	border-bottom: 1px solid #cecece;
+}
+.tabnav li {
+	display: inline;
+	list-style: none;
+}
+.tabnav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+	font-size: 12px;
+	background-color: #63bc63;
+	font-weight: 300;
+	padding: 6px 8px;
+	outline: none;
+	border-left: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #fff;
+	line-height:24px;
+}
+
+.tabnav li.ui-tabs-selected a {
+	background-color: #fff;
+	color: #525252;
+	border-bottom: 1px solid #fff;
+}
+
+.tabnav li a:hover {
+	background: #fff;
+}
+.tabnav li a:hover {
+	color: #666;
+	text-decoration: none;
+}
+.tabdiv {
+	position: relative;
+	top: -8px;
+	padding: 5px;
+	border-left: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	background-color: #ffffff;
+}
+.tabdiv ul {
+	padding: 5px;
+}
+
+.tabdiv ul li { 
+	overflow: hidden; 
+	clear: both;
+	background: none;
+	padding-left: 0;
+}
+
+.tabdiv ul li a {
+	padding-left: 0;
+	outline: 0;
+	padding-right:15px;
+	font-size: 16px;
+	width:208px;
+	float: right;
+}
+.tabdiv ul li a:hover {
+	color: #555;
+}
+.ui-tabs-hide {
+	display: none;
+}
