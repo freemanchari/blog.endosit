@@ -57,7 +57,7 @@ $jq(document).ready(function() {
 				</div>
 			</div>
 		</div>
-			<div id="header" class="snap_nopreview" style="background: transparent url(<?php header_image(); ?>) no-repeat top left;">
+			<div id="header" class="snap_nopreview" style="">
 			<?
 /* This code retrieves all our admin options. */
 global $options;
@@ -74,23 +74,11 @@ foreach ($options as $value) {
     <? /* Otherwise we'll use a generic message. */
 	} else { ?>
     
-    	<a href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="http://www.syncit.in/wp-content/uploads/2010/07/sitelogo1.png"></a>
+    	<a href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo get_stylesheet_directory_uri().'/images/endosit.png'?>"></a>
         
     <? } ?>
 				</div>
-				<div id="header_items">
-    <? /* If a title has been provided, we'll use that. */
-	if ($wpc_wide_ad) { ?>
-    
-    	<? echo stripslashes($wpc_wide_ad); ?>
-        
-    <? /* Otherwise we'll use a generic message. */
-	} else { ?>
-    
-    	<img src="<?php bloginfo('template_url'); ?>/images/widead.jpg" alt="ad code" />
-        
-    <? } ?>
-				</div>
+
 			</div>
 			<div id="topmenu">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => '' ) ); ?>

@@ -1,12 +1,11 @@
 /*
-	Theme Name: Comppress 
-	Theme URI: http://www.comptalks.com
+	Theme Name: endosit
+	Theme URI: http://endosit.com
 	Description: A clean elegant theme with lots of features,
 	Version: 1.0
-	Author: Bishwajeet Mahato
-	Author URI: http://www.comptalks.com
-	Tags: tech,technology,blog,minimal,clean,widgeted sidebar,widgeted footer,full width page,author box,threaded comment,adsense ready,ad code support
-*/
+	Author: Freeman Chari
+	Author URI:  http://endosit.com
+	*/
 
 /* Begin Typography & Colors */
 body { font-size: 13px; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #1b1b1b; text-align: center; background: white; padding: 0; margin: 0; }
@@ -167,12 +166,12 @@ blockquote strong { color: #5d5d5d !important; }
 #header 
 {
 	position: relative;
-	background: white;
+	background-color:#0fa30f;
 	margin: 0 auto;
 	border-left:1px solid #E4E4E4;
 	border-right:1px solid #E4E4E4;
 	width: 998px;
-	height: 130px;
+	height: 60px;
 }
 
 #header_ad
@@ -183,10 +182,7 @@ blockquote strong { color: #5d5d5d !important; }
 
 #header_logo
 {
-	padding: 13px 0 0 13px;
-	z-index: 5;
 	float: left;
-	margin-top:16px;
 }
 
 #header_items
@@ -318,21 +314,23 @@ blockquote strong { color: #5d5d5d !important; }
 	border-top: 1px solid #dbdbdb;
 	padding: 5px;
 	font-weight: bold;
-	background: white;
-	width: 990px;
+	background: #000;
+	text-align: center;
 	margin: 0 auto;
 	overflow: auto;
+        color:#fff;
+}
+#footercredits a{
+    color:#fff;
 }
 #site-info {
-	float: left !important;
-	margin: 0 20 0 0px !important;
+	
 	
 }
 
 #footer_right li
 {
-	float: right !important;
-	margin: 0 0 0 20px !important;
+	
 }
 
 #footercredits li
@@ -905,7 +903,7 @@ h3.widget-title { font-size: 16px; font-weight: normal; margin: 0 0 8px 0; paddi
 .box3 { float: right; padding-right: 0; }
 .box2 { padding-left: 7px; }
 .footerbox .widget { margin-bottom: 10px; }
-#topmenu { clear:both; background: #f5f5f5 url(images/menubg.jpg) repeat-x top left; height: 43px; width: 998px; margin: 0 auto; border-left:1px solid #E4E4E4; border-right:1px solid #E4E4E4; }
+#topmenu { display:none;clear:both; background: #f5f5f5 url(images/menubg.jpg) repeat-x top left; height: 43px; width: 998px; margin: 0 auto; border-left:1px solid #E4E4E4; border-right:1px solid #E4E4E4; }
 #topmenu .menu {  }
 #topmenu .menu ul { float: left;; margin-right: 10px; }
 #topmenu .menu li { float: left; }
