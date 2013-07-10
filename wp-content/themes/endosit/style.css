@@ -714,8 +714,8 @@ h3 {
 
 .excerpt .entry img
 {
-	max-width: 175px;
-	max-height: 175px;
+	max-width: 600px;
+	max-height: 800px;
 	width: expression(this.width > 175 ? 175: true);
 	height: expression(this.height > 175 ? 175: true);
 }
