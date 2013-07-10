@@ -72,12 +72,12 @@ foreach ($options as $value) {
 				    <? /* If a title has been provided, we'll use that. */
 	if ($wpc_logo_url) { ?>
     
-    	<a href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>"><img width="224" height="74" src="<? echo stripslashes($wpc_logo_url); ?>" alt="Back to Home"></a>
+    	<a href="http;//endosit.com" title="<?php bloginfo('name'); ?>"><img width="224" height="74" src="<? echo stripslashes($wpc_logo_url); ?>" alt="Back to Home"></a>
         
     <? /* Otherwise we'll use a generic message. */
 	} else { ?>
     
-    	<a href="<?php echo get_option('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo get_stylesheet_directory_uri().'/images/endosit.png'?>"></a>
+    	<a href="http://endosit.com " title="<?php bloginfo('name'); ?>"><img src="<?php echo get_stylesheet_directory_uri().'/images/endosit.png'?>"></a>
         
     <? } ?>
 				</div>

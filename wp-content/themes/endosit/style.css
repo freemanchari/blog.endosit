@@ -349,13 +349,17 @@ display: block;
     color:#fff;
 }
 #site-info {
-	
+display: inline;	
 	
 }
-
-#footer_right li
+#footer_right{
+    display: inline;
+}
+#footer_right a
 {
-	
+margin: 0 10px;
+border-left:2px solid #fff;
+padding-left: 10px; 
 }
 
 #footercredits li
