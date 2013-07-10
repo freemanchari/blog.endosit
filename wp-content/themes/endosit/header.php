@@ -39,9 +39,11 @@ $jq(document).ready(function() {
  </script>
 </head>
 <body <?php body_class(); ?>>
-		<div id="top" class="snap_nopreview">
+		<div id="top" class="snap_nopreview"> 
+                   
 				<div id="top_strip">
-				<div id="top_strip_left">
+                                    <div class="logo_small"></div>
+				<div id="top_strip_left"> 
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'secondary' ) ); ?>
 				</div>
 				<div id="top_strip_right">
@@ -58,6 +60,7 @@ $jq(document).ready(function() {
 			</div>
 		</div>
 			<div id="header" class="snap_nopreview" style="">
+                           
 			<?
 /* This code retrieves all our admin options. */
 global $options;

@@ -29,6 +29,10 @@ blockquote strong { color: #5d5d5d !important; }
 	margin: auto;
 	z-index: 5;
 	border-bottom: 1px solid #e4e4e4;
+        background: #000;
+        position: fixed;
+        left: 0;
+        right: 0;
 }
 
 #top_strip
@@ -43,7 +47,7 @@ blockquote strong { color: #5d5d5d !important; }
 {
 	position: absolute;
 	bottom: -1px;
-	left: 10px;
+	left: 250px;
 }
 
 #top_strip_left li
@@ -87,7 +91,9 @@ blockquote strong { color: #5d5d5d !important; }
 	text-decoration: none;
 	font-weight: bold;
 	padding: 7px 4px;
-	color: #555555;
+	color: #fff;
+        text-shadow: 0px -1px 0px #ccc;
+        text-transform: uppercase;
 	display: block;
 }
 
@@ -172,6 +178,7 @@ blockquote strong { color: #5d5d5d !important; }
 	border-right:1px solid #E4E4E4;
 	width: 998px;
 	height: 60px;
+        padding-top: 30px;
 }
 
 #header_ad
@@ -181,8 +188,26 @@ blockquote strong { color: #5d5d5d !important; }
 }
 
 #header_logo
-{
-	float: left;
+{   z-index: 10000;
+    position: absolute;
+    top: 0px;
+    height: 90px;
+    width: 233px;
+    background: #0fa30f;
+    bottom: 0;
+}
+#header_logo a{
+    margin-top: 16px;
+display: block;
+}
+.logo_small{
+    width: 233px;
+    height: 42px;
+    background: url(images/endosit.png) center center #0fa30f;
+    position: absolute;
+    left: 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 #header_items
@@ -306,7 +331,7 @@ blockquote strong { color: #5d5d5d !important; }
 	float: left;
 	width: 302px;
 	margin-top: 10px;
-	border-left: 2px solid #e8e8e8;
+	
 }
 
 #footercredits
