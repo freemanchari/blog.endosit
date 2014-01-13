@@ -34,7 +34,8 @@
 			
 All Rights Reserved.</div>
 				<div id="footer_right">
-					
+                                    <a href="http://endosit.com/privacy-policy">Privacy Policy</a>
+                                    <a href="http://endosit.com/terms-and-conditions">Terms and Conditions</a>
 				</div>
 			</div>
 	<?php wp_footer(); ?>

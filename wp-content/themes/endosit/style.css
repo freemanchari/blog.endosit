@@ -7,6 +7,16 @@
 	Author URI:  http://endosit.com
 	*/
 
+        /* reset
+        --------------------------------*/
+        
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
 /* Begin Typography & Colors */
 body { font-size: 13px; font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, Verdana, sans-serif; color: #1b1b1b; text-align: center; background: white; padding: 0; margin: 0; }
 img { border: 0; }	
@@ -349,13 +359,17 @@ display: block;
     color:#fff;
 }
 #site-info {
-	
+display: inline;	
 	
 }
-
-#footer_right li
+#footer_right{
+    display: inline;
+}
+#footer_right a
 {
-	
+margin: 0 10px;
+border-left:2px solid #fff;
+padding-left: 10px; 
 }
 
 #footercredits li
@@ -612,7 +626,7 @@ h3 {
 
 .excerpt .entry
 {
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 150%;
 	color: #272727;
 	margin: 0 0 0 0;
@@ -710,8 +724,8 @@ h3 {
 
 .excerpt .entry img
 {
-	max-width: 175px;
-	max-height: 175px;
+	max-width: 600px;
+	max-height: 800px;
 	width: expression(this.width > 175 ? 175: true);
 	height: expression(this.height > 175 ? 175: true);
 }
